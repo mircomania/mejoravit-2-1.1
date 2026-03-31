@@ -12,7 +12,7 @@ export const faqData = [
     {
         id: 3,
         question: '¿Cuánto dinero me pueden prestar con Mejoravit?',
-        answer: 'El monto del préstamo Mejoravit depende de tu capacidad de pago, pero actualmente puede ir desde $9,461.28 hasta $163,000 pesos aproximadamente. Este rango lo determina tu precalificación Mejoravit y tu ahorro en Infonavit.',
+        answer: 'El monto del préstamo Mejoravit depende de tu capacidad de pago, pero actualmente puede ir desde $9,461.28 hasta $169,039 pesos aproximadamente. Este rango lo determina tu precalificación Mejoravit y tu ahorro en Infonavit.',
     },
     {
         id: 4,

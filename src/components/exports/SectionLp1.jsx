@@ -28,7 +28,7 @@ export const SectionLp1 = () => {
                     <div className={`${styles.microCont1} animacion-down`} ref={objRef}>
                         <h1 className="bold-text">¡SOLICITA TU CRÉDITO!</h1>
 
-                        <h2 className="light-text">Obtén hasta $162,030 en efectivo</h2>
+                        <h2 className="light-text">Obtén hasta $169,039 en efectivo</h2>
                     </div>
 
                     <div className={`${styles.microCont2} animacion-up`} ref={objRef}>

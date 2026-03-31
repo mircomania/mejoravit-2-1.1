@@ -13,26 +13,43 @@ export const useForm = (initialState, submitCallback) => {
         const now = Date.now();
 
         const urlParams = new URLSearchParams(window.location.search);
-        const utmSource = urlParams.get('utm_source') || '';
-        const utmMedium = urlParams.get('utm_medium') || '';
-        const utmCampaign = urlParams.get('utm_campaign') || '';
+        const utmSource = urlParams.get('utm_source');
+        const utmMedium = urlParams.get('utm_medium');
+        const utmCampaign = urlParams.get('utm_campaign');
 
         const storedData = localStorage.getItem('utmParams');
 
-        if (utmSource || utmMedium || utmCampaign) {
-            // Nuevos UTM encontrados → guardar en localStorage con timestamp
-            const newParams = { utmSource, utmMedium, utmCampaign, timestamp: now };
+        if (utmSource && utmMedium && utmCampaign) {
+            const newParams = {
+                utmSource,
+                utmMedium,
+                utmCampaign,
+                timestamp: now,
+            };
+
             localStorage.setItem('utmParams', JSON.stringify(newParams));
             setUtmParams(newParams);
-        } else if (storedData) {
-            // No hay en URL → recuperar de localStorage
-            const parsedData = JSON.parse(storedData);
-            const ageInDays = (now - parsedData.timestamp) / MS_IN_ONE_DAY;
 
-            if (ageInDays <= DAYS_TO_EXPIRE) {
-                setUtmParams(parsedData);
-            } else {
-                // Expirado → eliminar
+            return;
+        }
+
+        if (storedData) {
+            try {
+                const parsedData = JSON.parse(storedData);
+
+                if (!parsedData.timestamp) {
+                    localStorage.removeItem('utmParams');
+                    return;
+                }
+
+                const ageInDays = (now - parsedData.timestamp) / MS_IN_ONE_DAY;
+
+                if (ageInDays <= DAYS_TO_EXPIRE) {
+                    setUtmParams(parsedData);
+                } else {
+                    localStorage.removeItem('utmParams');
+                }
+            } catch (error) {
                 localStorage.removeItem('utmParams');
             }
         }

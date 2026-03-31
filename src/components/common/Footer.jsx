@@ -16,7 +16,7 @@ export const Footer = () => {
 
             {/* COPYRIGHT */}
             <div className="utiles-footer light-text">
-                <p>© Mejoravit 2025</p>
+                <p>© Mejoravit 2026</p>
 
                 <div className="links-footer">
                     <NavLink to="/politica-privacidad" title="Ver la política de privacidad del crédito Mejoravit" data-link="footer-politica-link">
