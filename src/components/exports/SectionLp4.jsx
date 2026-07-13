@@ -12,7 +12,7 @@ export const SectionLp4 = () => {
     return (
         <section className={styles.sectionContainer}>
             <header className={styles.sectionTitulo}>
-                <h2 className="bold-text">¡Obtén tu crédito ahora!</h2>
+                <h2 className="bold-text">¡Obtén tu fondo ahora!</h2>
             </header>
 
             <div className={styles.sectionContenido}>
@@ -32,7 +32,7 @@ export const SectionLp4 = () => {
                         className="animacion-izq"
                         ref={objRef}
                         src={ImgSection}
-                        alt="Mujer apuntando con el dedo las características principales de crédito Mejoravit"
+                        alt="Mujer apuntando con el dedo las características principales de fondo Mejoravit"
                         loading="lazy"
                         decoding="async"
                     />

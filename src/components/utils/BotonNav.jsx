@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 export const BotonNav = ({
     to = '/precalificar',
-    ariaLabel = 'Ir a la página de precalificación para el crédito Mejoravit',
+    ariaLabel = 'Ir a la página de precalificación para el fondo Mejoravit',
     className = 'boton-1 bold-text',
-    title = 'Haz clic para ir a la página de precalificación para el crédito Mejoravit',
+    title = 'Haz clic para ir a la página de precalificación para el fondo Mejoravit',
     children = 'SOLICITAR',
     dataCta,
     dataLink,

@@ -50,7 +50,7 @@ export const requisitos = [
         id: '6',
         text: (
             <>
-                No tener otro <span className={styles.palabraDestacada}>crédito vigente</span> con Infonavit.
+                No tener otro <span className={styles.palabraDestacada}>fondo vigente</span> con Infonavit.
             </>
         ),
     },

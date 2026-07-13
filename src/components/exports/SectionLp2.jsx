@@ -14,7 +14,7 @@ export const SectionLp2 = () => {
     return (
         <section className={styles.sectionContainer}>
             <header className={styles.sectionTitulo}>
-                <h2 className="bold-text">Beneficios del crédito Mejoravit</h2>
+                <h2 className="bold-text">Beneficios del fondo Mejoravit</h2>
             </header>
 
             <div className={styles.sectionContenido}>
@@ -49,7 +49,7 @@ export const SectionLp2 = () => {
                     className="animacion-izq"
                     ref={objRef}
                     src={ImgSection}
-                    alt="Mujer apuntando con el dedo las características principales de crédito Mejoravit"
+                    alt="Mujer apuntando con el dedo las características principales de fondo Mejoravit"
                     loading="lazy"
                     decoding="async"
                 />

@@ -28,7 +28,7 @@ const LandingPage = () => {
         <main>
             <TitleSEO
                 title="Tramite Mejoravit | Precalifica Ahora"
-                description="Obtén tu Crédito Mejoravit y accede a hasta $162,030 en efectivo de manera rápida, sencilla y disponible en todo el país. ¡Pídelo ahora!"
+                description="Obtén tu fondo Mejoravit y accede a tus beneficios de manera rápida, sencilla y disponible en todo el país. ¡Pídelo ahora!"
                 canonical="https://tramitemejoravit.com.mx/"
             />
 

@@ -7,7 +7,7 @@ const PoliticasPage = () => {
         <main className="fade-in">
             <TitleSEO
                 title="Tramite Mejoravit | Política de Privacidad"
-                description="Conoce cómo protegemos y utilizamos tu información personal en nuestra plataforma de Crédito Mejoravit."
+                description="Conoce cómo protegemos y utilizamos tu información personal en nuestra plataforma de fondo Mejoravit."
                 canonical="https://tramitemejoravit.com.mx/politica-privacidad"
             />
 

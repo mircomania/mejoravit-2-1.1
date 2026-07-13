@@ -21,18 +21,18 @@ export const SectionLp1 = () => {
                 <div className={styles.sectionContenido1}>
                     <div className={styles.circle}></div>
 
-                    <img src={imgHome} alt="La futura casa de tus sueños, gracias al crédito Mejoravit" />
+                    <img src={imgHome} alt="La futura casa de tus sueños, gracias al fondo Mejoravit" />
                 </div>
 
                 <div className={styles.sectionContenido2}>
                     <div className={`${styles.microCont1} animacion-down`} ref={objRef}>
-                        <h1 className="bold-text">¡SOLICITA TU CRÉDITO!</h1>
+                        <h1 className="bold-text">¡SOLICITA TU FONDO!</h1>
 
-                        <h2 className="light-text">Obtén hasta $169,039 en efectivo</h2>
+                        <h2 className="light-text">Obtén hasta $169,039</h2>
                     </div>
 
                     <div className={`${styles.microCont2} animacion-up`} ref={objRef}>
-                        <img src={flechaHome} alt="Flecha apuntando al botón de precalificación del crédito Mejoravit" />
+                        <img src={flechaHome} alt="Flecha apuntando al botón de precalificación del fondo Mejoravit" />
 
                         <BotonNav dataCta="home-btn-1" />
 

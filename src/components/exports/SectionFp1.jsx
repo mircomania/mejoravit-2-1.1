@@ -21,7 +21,7 @@ export const SectionFp1 = () => {
 
                     <h2 className="light-text">
                         Ingresa tus datos para precalificar, y un asesor certificado se comunicará contigo para brindarte más información sobre tu
-                        crédito Mejoravit.
+                        fondo Mejoravit.
                     </h2>
                 </header>
 
@@ -37,11 +37,7 @@ export const SectionFp1 = () => {
                     las sociedades o empresas con las que mantenga relaciones comerciales y/o de negocios. Para tener mayor información acerca del
                     tratamiento y de los derechos que puede hacer valer, usted puede acceder a las políticas de privacidad completa para nuestros
                     usuarios a través de este enlace.{' '}
-                    <NavLink
-                        to="/politica-privacidad"
-                        title="Ver la política de privacidad sobre el Crédito Mejoravit"
-                        data-link="form-politicas-link"
-                    >
+                    <NavLink to="/politica-privacidad" title="Ver la política de privacidad sobre el fondo Mejoravit" data-link="form-politicas-link">
                         Conoce más Aquí.
                     </NavLink>
                 </p>

@@ -52,7 +52,7 @@ const FaqPage = () => {
         <main className="fade-in">
             <TitleSEO
                 title="Tramite Mejoravit | FAQ"
-                description="Encuentra respuestas claras y rápidas a las dudas más comunes sobre el Crédito Mejoravit 2025."
+                description="Encuentra respuestas claras y rápidas a las dudas más comunes sobre el fondo Mejoravit."
                 canonical="https://tramitemejoravit.com.mx/faq"
             />
 
