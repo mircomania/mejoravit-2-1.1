@@ -8,6 +8,8 @@ import { WhatsAppIcon } from './components/utils/WhatsAppIcon';
 import { Footer } from './components/common/Footer';
 
 const LandingPage = lazy(() => import('./components/pages/LandingPage'));
+const BeneficiosPage = lazy(() => import('./components/pages/BeneficiosPage'));
+const RequisitosPage = lazy(() => import('./components/pages/RequisitosPage'));
 const FormPage = lazy(() => import('./components/pages/FormPage'));
 const FaqPage = lazy(() => import('./components/pages/FaqPage'));
 const PoliticasPage = lazy(() => import('./components/pages/PoliticasPage'));
@@ -31,6 +33,8 @@ function App() {
             >
                 <Routes>
                     <Route path="/" element={<LandingPage />}></Route>
+                    <Route path="/beneficios" element={<BeneficiosPage />}></Route>
+                    <Route path="/requisitos" element={<RequisitosPage />}></Route>
                     <Route path="/precalificar" element={<FormPage />}></Route>
                     <Route path="/faq" element={<FaqPage />}></Route>
                     <Route path="/politica-privacidad" element={<PoliticasPage />}></Route>
